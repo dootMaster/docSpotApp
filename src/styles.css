@@ -1,0 +1,34 @@
+body {
+  background-color: #2A9D8F;
+}
+
+#border {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border: 5px solid #264653;
+  padding: 1px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 5px 5px 15px #264653;
+}
+
+#grid {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 25% 25% 25% 25%;
+}
+
+.cell {
+  height: 100px;
+  width: 100px;
+  background-color: #2A9D8F;
+  border: 1px solid white;
+  border-radius: 10px;
+  transition: background-color 0.25s ease;
+}
+
+
+
+
